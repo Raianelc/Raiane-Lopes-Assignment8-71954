@@ -6,6 +6,6 @@ import android.net.Uri
 import android.provider.Settings
 
 fun initializeMediaPlayer(context: Context): MediaPlayer {
-    val notification: Uri = Settings.System.DEFAULT_NOTIFICATION_URI
-    return MediaPlayer.create(context, notification)
+    val alarm: Uri = Settings.System.DEFAULT_ALARM_ALERT_URI
+    return MediaPlayer.create(context, alarm)
 }
