@@ -16,6 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.stu71954.raiane_lopes_assignment8_71954.ui.theme.RaianeLopesAssignment871954Theme
 
+
+// MainActivity class that extends ComponentActivity and initializes a MediaPlayer object.
 class MainActivity : ComponentActivity() {
     private lateinit var mediaPlayer: MediaPlayer
     private var _deepLinkUrl = mutableStateOf<String?>(null)
