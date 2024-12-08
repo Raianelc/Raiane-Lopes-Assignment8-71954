@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.LocalContext
 
+
+// DeepLinkButton composable function that takes a deepLinkUrl as a parameter and creates a Button composable that when clicked opens the deepLinkUrl in the browser.
 @Composable
 fun DeepLinkButton(deepLinkUrl: String?) {
     val context = LocalContext.current

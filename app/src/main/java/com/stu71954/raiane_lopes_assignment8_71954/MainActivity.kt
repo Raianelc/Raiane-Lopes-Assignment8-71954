@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         mediaPlayer = initializeMediaPlayer(this)
 
         // Handle DeepLink
-        deepLinkUrl = "https://www.singular.net/glossary/deep-linking/#:~:text=For%20example%2C%20if%20the%20deep,user%20to%20the%20desired%20page."
+        deepLinkUrl = "https://www.adjust.com/resources/guides/deep-linking/"
 
         setContent {
             RaianeLopesAssignment871954Theme {
